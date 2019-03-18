@@ -214,6 +214,10 @@ h6 {
     background-image: url('../images/slider3.png');
 }
 
+.letter-0{
+    letter-spacing: 0 !important;
+}
+
 @media screen and (max-width: 1200px) {
     .modal-open>div {
         width: calc(33.3333333% - 10px);
