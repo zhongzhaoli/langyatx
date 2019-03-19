@@ -3,7 +3,7 @@ body {
 }
 
 .carousel-inner {
-    max-height: 420px;
+    max-height: 600px;
 }
 
 .ly-title-text {
@@ -27,7 +27,7 @@ body {
     background-position: center;
 }
 
-.font-14{
+.font-14 {
     font-size: 14px !important;
 }
 
@@ -45,7 +45,7 @@ body {
     background-position: center;
 }
 
-.navbar{
+.navbar {
     border-bottom: 1px #c7c7c7 solid;
 }
 
@@ -115,7 +115,7 @@ h6 {
     background: rgba(255, 255, 255, 0.1)
 }
 
-.mb-20{
+.mb-20 {
     margin-bottom: 10px;
 }
 
@@ -185,12 +185,12 @@ h6 {
 }
 
 .carousel-img-div {
-    height: 420px;
+    height: 600px;
     background-size: cover;
     background-position: center;
 }
 
-.text-line-3{
+.text-line-3 {
     display: -webkit-box;
     overflow: hidden;
     -webkit-box-orient: vertical;
@@ -209,26 +209,56 @@ h6 {
     background-image: url('../images/slider3.png');
 }
 
+.p-span-lefticon span:not(:first-child)::before {
+    content: "\f0da";
+    padding-right: 10px;
+    font: normal normal normal 14px/1 FontAwesome;
+    color: red;
+}
+
+.p-span-lefticon span:first-child::before, h5::before{
+    content: "\f005";
+    padding-right: 10px;
+    font: normal normal normal 14px/1 FontAwesome;
+    color: #00854c;
+}
+
+.line-height-30 {
+    line-height: 30px;
+}
+
+.about-img {
+    width: 450px;
+    height: 300px;
+    border-radius: 5px;
+}
+
 @media screen and (max-width: 1200px) {
     .modal-open>div {
         width: calc(33.3333333% - 10px);
     }
-    .carousel-img-div{
+
+    .carousel-img-div {
         height: 600px;
     }
+
     .carousel-inner {
         max-height: 600px;
     }
 }
 
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
     .mt-6 {
         margin-top: 4rem;
     }
 
     .mb-6 {
         margin-bottom: 4rem;
+    }
+    .about-img{
+        width: 300px;
+        height: 200px;
     }
 }
 
@@ -250,11 +280,21 @@ h6 {
     .modal-open>div {
         width: calc(50% - 10px);
     }
-    .carousel-img-div{
+
+    .carousel-img-div {
         height: 400px;
     }
+
     .carousel-inner {
         max-height: 400px;
+    }
+    .about-img{
+        width: 100%;
+        height: auto;
+    }
+    .max-768-column{
+        flex-flow: column;
+        align-items: flex-start !important;
     }
 }
 
@@ -282,16 +322,20 @@ h6 {
     .modal-open>div {
         width: calc(100% - 10px);
     }
-    .modal-open>div img{
+
+    .modal-open>div img {
         height: auto;
     }
-    .phone-d-none{
+
+    .phone-d-none {
         display: none;
     }
-    .mt-4{
+
+    .mt-4 {
         margin-top: 1rem !important;
     }
-    .footer-ba{
+
+    .footer-ba {
         flex-direction: column;
         text-align: center;
     }
