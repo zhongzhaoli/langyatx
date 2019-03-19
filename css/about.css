@@ -216,7 +216,8 @@ h6 {
     color: red;
 }
 
-.p-span-lefticon span:first-child::before, h5::before{
+.p-span-lefticon span:first-child::before,
+h5::before {
     content: "\f005";
     padding-right: 10px;
     font: normal normal normal 14px/1 FontAwesome;
@@ -225,6 +226,16 @@ h6 {
 
 .line-height-30 {
     line-height: 30px;
+}
+
+.logo {
+    width: 80px;
+    height: 60px;
+}
+
+.title {
+    font-size: 25px;
+    letter-spacing: 8px;
 }
 
 .about-img {
@@ -256,7 +267,8 @@ h6 {
     .mb-6 {
         margin-bottom: 4rem;
     }
-    .about-img{
+
+    .about-img {
         width: 300px;
         height: 200px;
     }
@@ -288,11 +300,13 @@ h6 {
     .carousel-inner {
         max-height: 400px;
     }
-    .about-img{
+
+    .about-img {
         width: 100%;
         height: auto;
     }
-    .max-768-column{
+
+    .max-768-column {
         flex-flow: column;
         align-items: flex-start !important;
     }

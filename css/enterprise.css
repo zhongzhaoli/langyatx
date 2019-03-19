@@ -37,12 +37,6 @@ button a:hover {
     background-position: center;
 }
 
-.logo {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
 .font-14 {
     font-size: 14px !important;
 }
@@ -261,6 +255,16 @@ h6 {
 
 .nav-pills .nav-link {
     border-radius: 0;
+}
+
+.logo {
+    width: 80px;
+    height: 60px;
+}
+
+.title {
+    font-size: 25px;
+    letter-spacing: 8px;
 }
 
 .carousel-control-next-icon,
