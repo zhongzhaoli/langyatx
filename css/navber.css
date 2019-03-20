@@ -1,0 +1,99 @@
+.navbar {
+    border-bottom: 1px #c7c7c7 solid;
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+}
+
+.title {
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+
+.carousel-inner {
+    max-height: 600px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-img-div {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-nav>li {
+    flex: 1;
+}
+
+.silder1 {
+    background-image: url('../images/slider1.png');
+}
+
+.silder2 {
+    background-image: url('../images/slider3.png');
+}
+
+.silder3 {
+    background-image: url('../images/index3.png');
+}
+
+.silder5 {
+    background-image: url('../images/index4.png');
+}
+
+.silder6 {
+    background-image: url('../images/index5.png');
+}
+
+.silder7 {
+    background-image: url('../images/index6.png');
+}
+
+.silder9 {
+    background-image: url('../images/slider9.png');
+}
+
+.silder11 {
+    background-image: url('../images/slider11.png');
+}
+
+.max-991-block {
+    display: none !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .carousel-inner {
+        max-height: 600px;
+    }
+
+    .carousel-img-div {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .max-991-none {
+        display: none !important;
+    }
+
+    .max-991-block {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-inner {
+        max-height: 400px;
+    }
+
+    .carousel-img-div {
+        height: 400px;
+    }
+}

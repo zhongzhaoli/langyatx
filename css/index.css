@@ -2,10 +2,6 @@ body {
     background: #f2f2f2;
 }
 
-.carousel-inner {
-    max-height: 600px;
-}
-
 .ly-title-text {
     /* font-family: "wenyue"; */
     letter-spacing: 0.5rem;
@@ -37,15 +33,6 @@ button a:hover {
     background-position: center;
 }
 
-.logo {
-    width: 80px;
-    height: 60px;
-}
-.title{
-    font-size: 25px;
-    letter-spacing: 8px;
-}
-
 .font-14 {
     font-size: 14px !important;
 }
@@ -62,10 +49,6 @@ button a:hover {
     background-image: url('../images/course_bg.png');
     background-size: cover;
     background-position: center;
-}
-
-.navbar {
-    border-bottom: 1px #c7c7c7 solid;
 }
 
 .course-div:before {
@@ -203,12 +186,6 @@ h6 {
     width: 100%;
 }
 
-.carousel-img-div {
-    height: 600px;
-    background-size: cover;
-    background-position: center;
-}
-
 .text-line-3 {
     display: -webkit-box;
     overflow: hidden;
@@ -216,46 +193,8 @@ h6 {
     -webkit-line-clamp: 4;
 }
 
-.silder1 {
-    background-image: url('../images/slider1.png');
-}
-
-.silder2 {
-    background-image: url('../images/slider3.png');
-}
-
-.silder3 {
-    background-image: url('../images/index3.png');
-}
-
-.silder5 {
-    background-image: url('../images/index4.png');
-}
-
-.silder6 {
-    background-image: url('../images/index5.png');
-}
-
-.silder7 {
-    background-image: url('../images/index6.png');
-}
-
-.silder9 {
-    background-image: url('../images/slider9.png');
-}
-
-.silder11 {
-    background-image: url('../images/slider11.png');
-}
-
 .letter-0 {
     letter-spacing: 0 !important;
-}
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-    width: 40px;
-    height: 40px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -263,16 +202,7 @@ h6 {
         width: calc(33.3333333% - 10px);
     }
 
-    .carousel-img-div {
-        height: 600px;
-    }
-
-    .carousel-inner {
-        max-height: 600px;
-    }
 }
-
-
 @media screen and (max-width: 991px) {
     .mt-6 {
         margin-top: 4rem;
@@ -300,10 +230,6 @@ h6 {
 
     .modal-open>div {
         width: calc(50% - 10px);
-    }
-
-    .carousel-img-div {
-        height: 400px;
     }
 
     .carousel-inner {
