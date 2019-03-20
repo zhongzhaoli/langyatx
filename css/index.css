@@ -221,23 +221,23 @@ h6 {
 }
 
 .silder2 {
-    background-image: url('../images/about_bg.jpg');
-}
-
-.silder3 {
     background-image: url('../images/slider3.png');
 }
 
+.silder3 {
+    background-image: url('../images/index3.png');
+}
+
 .silder5 {
-    background-image: url('../images/slider5.png');
+    background-image: url('../images/index4.png');
 }
 
 .silder6 {
-    background-image: url('../images/slider6.png');
+    background-image: url('../images/index5.png');
 }
 
 .silder7 {
-    background-image: url('../images/slider7.png');
+    background-image: url('../images/index6.png');
 }
 
 .silder9 {
