@@ -28,7 +28,7 @@ button a:hover {
 .introduce-img {
     height: 300px;
     width: 100%;
-    background-image: url('../images/slider2.png');
+    background-image: url('../images/about_bg2.jpg');
     background-size: cover;
     background-position: center;
 }
