@@ -6,9 +6,39 @@
     width: 200px;
     height: 180px;
 }
+.course_other_div{
+    width: calc(100% - 200px);
+}
 .bottom-0{
     bottom: 0;
 }
 .font-13{
     font-size: 13px;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+@media (max-width: 576px){
+    .max-576-flex{
+        flex-direction: column;
+    }
+    .shopping_image{
+        width: 100%;
+        height: auto;
+    }
+    .course_other_div{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .course_other_div span{
+        padding: 1rem 0;
+    }
+    .img-div > div > img{
+        height: auto !important;
+    }
+    .img-div > div{
+        height: auto !important;
+    }
 }

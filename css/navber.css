@@ -30,6 +30,8 @@
 
 .navbar-nav>li {
     flex: 1;
+    font-weight: bold;
+    font-size: 19px;
 }
 
 .silder1 {
@@ -70,6 +72,19 @@
 
 h3{
     margin:0;
+}
+.nav-item{
+    text-align: center;
+}
+.qr_div img{
+    width: 150px;
+    height: 150px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width:1340px
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -131,5 +146,20 @@ h3{
     .title{
         position: relative;
         left: 5px;
+    }
+    .max-500-row{
+        margin-left:0;
+        margin-right:0;
+    }
+    
+    .qr_div{
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        margin-left: 0 !important;
+    }
+    .qr_div img{
+        width: 70%;
+        height: auto;
     }
 }
