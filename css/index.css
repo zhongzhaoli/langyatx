@@ -38,7 +38,7 @@ button a:hover {
 }
 
 .card-text {
-    line-height: 2rem;
+    line-height: 3rem;
 }
 
 .course-div {
@@ -84,7 +84,7 @@ h6 {
 }
 
 .small {
-    font-size: 85%;
+    font-size: 130%;
 }
 
 .course-div>div>div:not(:last-child) {
