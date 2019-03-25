@@ -8,6 +8,8 @@
     <title>购课商城</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/shopping.css">
+    <link rel="stylesheet" href="./css/enterprise.css">
     <link rel="stylesheet" href="./css/navber.css">
 </head>
 
@@ -118,9 +120,132 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    <div class="container mb-5">
+        <div class="text-center ly-title-text pt-5 pb-5">
+            <h2>购课商城</h2>
+        </div>
+        <div class="course_card_div p-2" id="list-tab" role="tablist">
+            <div class="row">
+                <div class="course d-flex align-items-center col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <img class="shopping_image" src="./images/shopping1.png" alt="">
+                    <div class="pl-3 h-100 d-flex flex-column justify-content-between">
+                        <h4>2019深圳狼牙青少年军事夏令营（7天营）</h4>
+                        <span class="font-13">月销：999</span>
+                        <div class="bottom-0 d-flex align-items-center justify-content-between">
+                            <h3 class="d-inline-block" style="color: red">￥3980</h3>
+                            <button class="btn btn-danger" data-id="list-home" data-detail>查看详细</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="course d-flex align-items-center col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <img class="shopping_image" src="./images/shopping2.png" alt="">
+                    <div class="pl-3 h-100 d-flex flex-column justify-content-between">
+                        <h4>2019深圳狼牙青少年军事夏令营（14天营）</h4>
+                        <span class="font-13">月销：999</span>
+                        <div class="bottom-0 d-flex align-items-center justify-content-between">
+                            <h3 class="d-inline-block" style="color: red">￥5980</h3>
+                            <button class="btn btn-danger" data-id="list-profile" data-detail>查看详细</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list-group" id="list-tab" role="tablist" style="display: none;">
+            <a class="list-group-item list-group-item-action active" id="list-messages-list" data-toggle="list" href="#list-messages"
+                role="tab" aria-controls="messages">Messages</a>
+            <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home"
+                role="tab" aria-controls="home">Home</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile"
+                role="tab" aria-controls="profile">Profile</a>
+        </div>
+        <div class="tab-content mt-6" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list"></div>
+            <div class="tab-pane fade" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                <h2 class="text-center">2019深圳狼牙青少年军事夏令营（7天营）</h2>
+                <p class="mt-5 p-span-lefticon pr-2">
+                    <span class="h5 enterprise-title">价格及优惠</span><br><br>
+                    <p class="p-span-lefticon pr-2 enterprise-profit">
+                        <span></span>
+                        <span>报名对象：年满6--17周岁，身体健康，无先天性疾病或遗传病史之少年均可报名。</span><br>
+                        <span>价格：<b style="color: red;">¥3980</b></span><br>
+                        <span>优惠1：2019年6月1日前报名缴费优惠200元/人；</span><br>
+                        <span>优惠2：2019年7月1日前报名缴费优惠100元/人；</span><br>
+                        <span>优惠3：三人以上团报再多优惠100元/人。</span><br>
+                    </p>
+                </p>
+                <p class="mt-5 p-span-lefticon pr-2">
+                    <span class="h5 enterprise-title">开营时间安排：（共3期）</span><br><br>
+                    <p class="p-span-lefticon pr-2 enterprise-profit">
+                        <span></span>
+                        <span>第一期：2019年07月21日-07月27日；</span><br>
+                        <span>第二期：2019年07月28日-08月03日；</span><br>
+                        <span>第三期：2019年08月04日-08月10日；</span><br>
+                    </p>
+                </p>
+                <img class="w-100 mt-4" src="./images/shopping1.png" alt="">
+                <p class="mt-5 p-span-lefticon pr-2">
+                    <span class="h5 enterprise-title">后勤保障</span><br><br>
+                    <p class="p-span-lefticon pr-2 enterprise-profit mb-5">
+                        <span></span>
+                        <span>1、基地由部队全封闭式管理，确保学员的安全、不受干扰；</span><br>
+                        <span>2、用餐：正餐六菜一汤（2正1早）；每天保证一次水果。</span><br>
+                        <span>3、住宿：军营式空调房，公共卫生间，太阳能热水淋浴。</span><br>
+                        <span>4、服装：免费提供训练两套迷彩服。</span><br>
+                        <span>5、赠品：结业证书，合影照一张。</span><br>
+                        <span>6、保险：营地给每位营员购买1份保险。</span><br>
+                    </p>
+                </p>
+                <b class="h4" style="color: red; line-height: 40px;">学员需自带：生活用品（漱口杯、牙刷、牙膏、毛巾、洗发水、香皂等）、用品（拖鞋、运动鞋、换洗内衣裤2-3套、袜子3对、水杯1个）及其它个人所需物品，尽量避免携带贵重物品。</b>
+            </div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                <h2 class="text-center">2019深圳狼牙青少年军事夏令营（14天营）</h2>
+                <p class="mt-5 p-span-lefticon pr-2">
+                    <span class="h5 enterprise-title">价格及优惠</span><br><br>
+                    <p class="p-span-lefticon pr-2 enterprise-profit">
+                        <span></span>
+                        <span>报名对象：年满6--17周岁，身体健康，无先天性疾病或遗传病史之少年均可报名。</span><br>
+                        <span>价格：<b style="color: red;">¥3980</b></span><br>
+                        <span>优惠1：2019年6月1日前报名缴费优惠200元/人；</span><br>
+                        <span>优惠2：2019年7月1日前报名缴费优惠100元/人；</span><br>
+                        <span>优惠3：三人以上团报再多优惠100元/人。</span><br>
+                    </p>
+                </p>
+                <p class="mt-5 p-span-lefticon pr-2">
+                    <span class="h5 enterprise-title">开营时间安排：（共3期）</span><br><br>
+                    <p class="p-span-lefticon pr-2 enterprise-profit">
+                        <span></span>
+                        <span>第一期：2019年07月21日-07月27日；</span><br>
+                        <span>第二期：2019年07月28日-08月03日；</span><br>
+                        <span>第三期：2019年08月04日-08月10日；</span><br>
+                    </p>
+                </p>
+                <img class="w-100 mt-4" src="./images/shopping1.png" alt="">
+                <p class="mt-5 p-span-lefticon pr-2">
+                    <span class="h5 enterprise-title">后勤保障</span><br><br>
+                    <p class="p-span-lefticon pr-2 enterprise-profit mb-5">
+                        <span></span>
+                        <span>1、基地由部队全封闭式管理，确保学员的安全、不受干扰；</span><br>
+                        <span>2、用餐：正餐六菜一汤（2正1早）；每天保证一次水果。</span><br>
+                        <span>3、住宿：军营式空调房，公共卫生间，太阳能热水淋浴。</span><br>
+                        <span>4、服装：免费提供训练两套迷彩服。</span><br>
+                        <span>5、赠品：结业证书，合影照一张。</span><br>
+                        <span>6、保险：营地给每位营员购买1份保险。</span><br>
+                    </p>
+                </p>
+                <b class="h4" style="color: red; line-height: 40px;">学员需自带：生活用品（漱口杯、牙刷、牙膏、毛巾、洗发水、香皂等）、用品（拖鞋、运动鞋、换洗内衣裤2-3套、袜子3对、水杯1个）及其它个人所需物品，尽量避免携带贵重物品。</b>
+            </div>
+        </div>
+    </div>
+    <div class="footer text-white position-relative">
+        <div class="bottom-0 border-top-1 w-100 d-flex justify-content-between small footer-ba">
+            <span>联系客服：13686895256</span>
+            <span>© 2006-2019 Adobe Systems Incorporated。</span>
+        </div>
+    </div>
 </body>
 <script src="./js/jquery.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
 <script src="./js/popper.min.js"></script>
+<script src="./js/shopping.js"></script>
 
 </html>

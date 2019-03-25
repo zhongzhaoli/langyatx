@@ -68,6 +68,10 @@
     display: none !important;
 }
 
+h3{
+    margin:0;
+}
+
 @media screen and (max-width: 1200px) {
     .carousel-inner {
         max-height: 600px;
