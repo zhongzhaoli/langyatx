@@ -2,14 +2,25 @@
     border-bottom: 1px #c7c7c7 solid;
 }
 
+*{
+    font-weight: bold !important;
+}
+
 .logo {
     width: 100px;
     height: 80px;
 }
 
 .title {
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 10px;
+    font-family: kai, kaiti;
+    font-weight: bold;
+}
+
+.kai {
+    font-family: kai, kaiti;
+    font-weight: bold;
 }
 
 .carousel-inner {
@@ -30,8 +41,10 @@
 
 .navbar-nav>li {
     flex: 1;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 19px;
+    font-family: kai, kaiti;
+    margin: 0 2px;
 }
 
 .silder1 {
@@ -70,28 +83,41 @@
     display: none !important;
 }
 
-h3{
-    margin:0;
+h3 {
+    margin: 0;
 }
 
-.nav-item{
+.nav-item {
     text-align: center;
+    border: 1px #c7c7c7 solid;
+    border-radius: 20px;
+    transition: all 0.2s;
 }
-.qr_div img{
+.nav-item:hover{
+    background: #eaeaea;
+}
+
+.qr_div img {
     width: 150px;
     height: 150px;
 }
 
-.max-row{
-    margin-left:0;
-    margin-right:0;
+.max-row {
+    margin-left: 0;
+    margin-right: 0;
 }
-.font-22{
+
+.font-22 {
     font-size: 22px;
 }
+
+.audiojs {
+    display: none;
+}
+
 @media (min-width: 1200px) {
     .container {
-        max-width:1340px
+        max-width: 1340px
     }
 }
 
@@ -113,7 +139,8 @@ h3{
     .max-991-block {
         display: block !important;
     }
-    .max-991-none{
+
+    .max-991-none {
         display: none;
     }
 }
@@ -141,30 +168,37 @@ h3{
     .navbar-brand {
         flex-flow: column;
     }
-    .navbar{
+
+    .navbar {
         flex-flow: column;
         padding-bottom: 20px !important;
     }
-    .navbar-collapse{
+
+    .navbar-collapse {
         width: 280px;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         margin: 0;
     }
-    .logo{
+
+    .logo {
         margin-right: 0 !important;
     }
-    .title{
+
+    .title {
         position: relative;
         left: 5px;
-    }    
-    .qr_div{
+    }
+
+    .qr_div {
         justify-content: center;
         width: 100%;
         text-align: center;
         margin-left: 0 !important;
     }
-    .qr_div img{
+
+    .qr_div img {
         width: 70%;
         height: auto;
     }
