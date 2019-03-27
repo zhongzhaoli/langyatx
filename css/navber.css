@@ -18,6 +18,14 @@
     font-weight: bold;
 }
 
+.font-kaiti{
+    font-family: kai,kaiti;
+}
+
+.ml-6{
+    margin-left: 3.5rem;
+}
+
 .bg-000{
     background: #191919;
     color: white;

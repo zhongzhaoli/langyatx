@@ -131,7 +131,7 @@ h6 {
 
 .fixed-position {
     top: 0rem;
-    font-size: 13px;
+    /*font-size: 13px;*/
 }
 
 #anchor_ul li:first-child{
