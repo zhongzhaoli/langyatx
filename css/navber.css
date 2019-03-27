@@ -54,7 +54,8 @@
 }
 
 .silder1 {
-    background-image: url('../images/slider1.jpg');
+    /* background-image: url('../images/slider1.jpg'); */
+    background-image: url('http://111.231.242.150:84/images/slider1.png');
 }
 
 .silder2 {
