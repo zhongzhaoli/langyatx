@@ -4,6 +4,6 @@ window.onclick = function(){
 
 var img = new Image();
 img.onload = function(){
-	$(".hide").removeClass("hide");
+	// $(".hide").removeClass("hide");
 }
 img.src = "images/slider1.jpg";
