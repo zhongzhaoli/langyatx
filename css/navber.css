@@ -177,6 +177,14 @@ h3 {
     .max-768-padding-0{
         padding-left:0 !important;
     } 
+
+}
+
+
+@media screen and (max-width: 550px){
+    .max-550-bg-left{
+        background-position: left;
+    }
 }
 
 @media screen and (max-width: 500px) {
