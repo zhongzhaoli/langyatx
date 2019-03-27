@@ -167,6 +167,16 @@ h3 {
         width: 80px;
         height: 60px;
     }
+    .max-768-flex{
+        flex-direction: column;
+    }
+    .max-768-0{
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .max-768-padding-0{
+        padding-left:0 !important;
+    } 
 }
 
 @media screen and (max-width: 500px) {

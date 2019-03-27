@@ -316,6 +316,9 @@ h6 {
     #anchor_ul_div{
         display: none !important;
     }
+    #v-pills-tab{
+        position: unset !important;
+    }
 }
 
 @media screen and (max-width: 576px) {
