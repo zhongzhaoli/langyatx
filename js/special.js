@@ -19,13 +19,13 @@ var main_fun = {
         this.width = $("#v-pills-tab").get(0).offsetWidth;
     },
     div_show: function(){
-        $("#anchor_ul_div").get(0).left = this.left + "px";
-        $("#anchor_ul_div").get(0).style.width = this.width - 2 + "px";
+        $("#v-pills-tab").get(0).left = this.left + "px";
+        $("#v-pills-tab").get(0).style.width = this.width - 2 + "px";
         if($("html")[0].scrollTop >= this.top){
-            $("#anchor_ul_div").addClass("position-fixed");
+            $("#v-pills-tab").addClass("position-fixed");
         }
         else{
-            $("#anchor_ul_div").removeClass("position-fixed");
+            $("#v-pills-tab").removeClass("position-fixed");
         }
     },
     div_status: function(){

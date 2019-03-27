@@ -18,6 +18,12 @@
     font-weight: bold;
 }
 
+.bg-000{
+    background: #191919;
+    color: white;
+    font-size: 13px;
+}
+
 .kai {
     font-family: kai, kaiti;
     font-weight: bold;
