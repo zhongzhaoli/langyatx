@@ -62,29 +62,20 @@
 }
 
 .silder3 {
-    background-image: url('../images/index3.png');
+    background-image: url('../images/index3.jpg');
 }
 
 .silder5 {
-    background-image: url('../images/index4.png');
+    background-image: url('../images/index4.jpg');
 }
 
 .silder6 {
-    background-image: url('../images/index5.png');
+    background-image: url('../images/index5.jpg');
 }
 
 .silder7 {
-    background-image: url('../images/index6.png');
+    background-image: url('../images/index6.jpg');
 }
-
-.silder9 {
-    background-image: url('../images/slider9.jpg');
-}
-
-.silder11 {
-    background-image: url('../images/slider11.jpg');
-}
-
 .max-991-block {
     display: none !important;
 }

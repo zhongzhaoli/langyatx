@@ -46,7 +46,7 @@ button a:hover {
     background-attachment: fixed;
     overflow: hidden;
     position: relative;
-    background-image: url('../images/course_bg.png');
+    background-image: url('../images/course_bg.jpg');
     background-size: cover;
     background-position: center;
 }
