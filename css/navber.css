@@ -237,3 +237,11 @@ h3 {
         padding:0.5rem 1rem;
     }
 }
+@media screen and (max-width: 400px){
+    .max-400-bg-right-215{
+        background-position: -215px;
+    }
+    .max-400-bg-right-155{
+        background-position: -155px;
+    }
+}
