@@ -1,5 +1,6 @@
 .navbar {
     border-bottom: 1px #c7c7c7 solid;
+    padding: 0.5rem 11rem;
 }
 
 *{
@@ -122,6 +123,10 @@ h3 {
 .hide{
     display: none;
 }
+.child-span-line span{
+    line-height: 35px;
+    font-size: 1.2rem;
+}
 
 @media (min-width: 1200px) {
     .container {
@@ -227,5 +232,8 @@ h3 {
     .qr_div img {
         width: 70%;
         height: auto;
+    }
+    .navbar {
+        padding:0.5rem 1rem;
     }
 }
