@@ -281,4 +281,7 @@ h6 {
         flex-direction: column;
         text-align: center;
     }
+    .card-text{
+        font-size: 120%;
+    }
 }
