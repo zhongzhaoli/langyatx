@@ -284,4 +284,7 @@ h6 {
     .card-text{
         font-size: 120%;
     }
+    .card-title{
+        font-size: 1.6rem !important;
+    }
 }
